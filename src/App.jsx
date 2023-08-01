@@ -12,12 +12,15 @@ function App() {
 
   return (
     <DetailsProvider>
-      <>
-        <Card side={ "front" } />
-        <Card side={ "back" } />
+
+      <div className='App'>
+        <div className='cardsContainer'>
+          <Card side={ "front" } />
+          <Card side={ "back" } />
+        </div>
 
         <InputArea />
-      </>
+      </div>
     </DetailsProvider>
 
 
